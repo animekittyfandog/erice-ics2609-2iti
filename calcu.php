@@ -89,11 +89,11 @@
 
                 // Display the results with formatted numbers
                 echo "<h3 class='mt-4'>Results</h3>";
-                echo "<p> You have chosen <b> $frequency </b> pay for your income of <b>$" . number_format($income, 2) . "</b>.<br />";
+                echo "<p> You have chosen <b> $frequency </b> pay for your income of <b>" . number_format($income, 2) . "</b>.<br />";
                 echo "<p> Here are the results </p>";
-                echo "<p>Annual Income: $" . number_format($annualIncome, 2) . "</p>";
-                echo "<p>Annual Tax: $" . number_format($annualTax, 2) . "</p>";
-                echo "<p>Monthly Tax: $" . number_format($monthlyTax, 2) . "</p>";
+                echo "<p>Annual Income: " . number_format($annualIncome, 2) . "</p>";
+                echo "<p>Annual Tax: " . number_format($annualTax, 2) . "</p>";
+                echo "<p>Monthly Tax: " . number_format($monthlyTax, 2) . "</p>";
             }
             ?>
         </div>
