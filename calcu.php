@@ -78,6 +78,12 @@
                 $income = $_POST["income"];
                 $frequency = $_POST["frequency"];
 
+                // Validate the income input
+                if ($income < 0) {
+                echo "<p>Please enter a positive number for the income.</p>";
+                exit;
+                }    
+
                 if ($frequency == "monthly") {
                     $annualIncome = $income * 12;
                 } else if ($frequency == "bi-monthly") {
